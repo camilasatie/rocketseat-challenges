@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import ExperienceBar from '../components/ExperienceBar/ExperienceBar';
+import Countdown from '../components/Countdown/Countdown';
 
 import styles from './index.module.css';
 
@@ -14,7 +15,7 @@ export default function Home() {
 
       <section>
         <div>
-          Section
+          <Countdown />
         </div>
       </section>
     </div>
