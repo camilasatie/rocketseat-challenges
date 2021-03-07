@@ -14,7 +14,7 @@ interface CountdownProviderProps {
   children: ReactNode;
 }
 
-const MINUTES_PER_CYCLE = 0.1;
+const MINUTES_PER_CYCLE = 25;
 const ONE_MINUTE_IN_SECOND = 60;
 let countdownTimeout: NodeJS.Timeout;
 
