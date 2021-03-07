@@ -21,7 +21,7 @@ let countdownTimeout: NodeJS.Timeout;
 export const CountdownContext = createContext({} as CountdownContextData);
 
 export function CountdownProvider({ children }: CountdownProviderProps) {  
-  const {startNewChallenge } = useContext(ChallengesContext);
+  const { startNewChallenge } = useContext(ChallengesContext);
   
   const [time, setTime] = useState(MINUTES_PER_CYCLE * ONE_MINUTE_IN_SECOND);
   const [isActive, setIsActive] = useState(false);
